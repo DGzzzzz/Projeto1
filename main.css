@@ -1,0 +1,109 @@
+img.logo-banda {
+    max-width:600px;
+    max-height:500px;
+    width: auto;
+    height: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2, h3 {
+    font-family: 'Rampart One', sans-serif;
+    font-weight: none;
+    color: black;
+}
+
+body, button {
+    font-family: 'Oswald', sans-serif;
+    font-weight: none;
+}
+
+header {
+    padding: 16px 0;
+    background-color: rgb(81, 143, 81);
+    color: black;
+
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+    
+}
+
+header nav li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+header .container, 
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-list img {
+    height: 24px;
+}
+
+.social-list li {
+    display: inline;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+
+}
+
+section h2 {
+    margin-bottom: 16px;
+
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.logo-banda {
+    margin-right: 32px;
+}
+
+#contact .container {
+    display: block;
+}
+
+#Listen .container {
+    display:  block;
+}
+
+section h3, button {
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.726);
+    color: rgb(0, 0, 0);
+    width: 10%;
+    cursor: pointer;
+    
+}
