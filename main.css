@@ -94,6 +94,7 @@ section p {
 
 #Listen .container {
     display:  block;
+    
 }
 
 section h3, button {
@@ -103,7 +104,7 @@ section h3, button {
 button {
     background-color: rgba(255, 255, 255, 0.726);
     color: rgb(0, 0, 0);
-    width: 10%;
+    width: 15%;
     cursor: pointer;
-    
+    display: 
 }
